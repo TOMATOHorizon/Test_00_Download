@@ -1,0 +1,7 @@
+!curl -H "Authorization: Bearer YYYYY" https://www.googleapis.com/drive/v3/files/XXXXX?alt=media -o ZZZZZ
+
+# Using Google Developers - OAuth2.0 Playground : "https://developers.google.com/oauthplayground/" - "Drive API v3" - "https://www.googleapis.com/auth/drive.readonly"
+
+# YYYYY: Access token
+# XXXXX: FileID (Includes "'head' - '1'")
+# ZZZZZ: "File name for 'Save As...'"
